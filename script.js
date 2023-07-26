@@ -17,3 +17,5 @@ console.log(createGrid());
 
 const gridElements = Array.from(document.querySelectorAll('.gridElement'));
 gridElements.forEach(gridElement => gridElement.addEventListener('mouseover', changeGridElementColor));
+
+console.log(100/18)
