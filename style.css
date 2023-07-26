@@ -1,0 +1,21 @@
+.container {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mouseEvent {
+    background-color: black;
+}
+.gridElement {
+    background-color: white;
+    margin: 4px;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.mouseEvent {
+    background-color: black;
+}
