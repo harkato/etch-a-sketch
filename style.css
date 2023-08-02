@@ -6,14 +6,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1200px;
 }
 .mouseEvent {
     background-color: black;
 }
 .gridElement {
-    background-color: #ececec;;
-    flex: 0 0 calc(6.25%); /* Each grid cell takes up 6.25% of the container width (16 cells in total), minus 1px for the gap */
-    padding-top: calc(6.25%);
+    background-color: #ececec;
+    justify-content: center;
+    align-items: center;
+
     
 }
 
@@ -21,7 +23,7 @@ body {
     background-color: black;
 }
 
-a.grid-button{
+button.grid-button{
     background: linear-gradient(to right,#ffffff ,#e2d0ef);
     background-color: #ffffff;
     color: #000000;
@@ -35,10 +37,10 @@ a.grid-button{
     border-radius: 10px;
     display: inline-flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 20px;
 }
 
-a.grid-button span{
+button.grid-button span{
     margin-right: 15px;
     display: block;
     width: 29px;
@@ -49,11 +51,11 @@ a.grid-button span{
     transform: rotate(0deg);
 }
 
-a.grid-button:hover{
+button.grid-button:hover{
     background: linear-gradient(to right,#f2f2f2 ,#d6c5e3);
     background-color: #f2f2f2;
 }
 
-a.grid-button:active{
+button.grid-button:active{
     transform: scale(0.95);
 }
